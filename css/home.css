@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+body {
+    font-family: 'Patua One', cursive;
+    font-style: normal;
+}
+
+#n {
+    background-image: url("../images/bg.jpg");
+    padding-bottom: 100px;
+    background-size: 1400px 700px;
+    background-repeat: no-repeat;
+}
+
+
+/* drop menus */
+
+#pakages-div {
+    width: 350px;
+    padding: 10px;
+    margin-top: 25px;
+    padding-bottom: 5px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 15px rgb(143, 139, 139);
+}
+
+#dropdownMenuButton {
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+}
+
+#dropdown-item {
+    color: rgb(138, 135, 132);
+    font-size: 14px;
+}
+
+#drop-menu {
+    box-shadow: 2px grey;
+    margin-top: 25px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 15px rgb(143, 139, 139);
+}
+
+#dropdownMenuButton2,
+#dropdownMenuButton1 {
+    margin-top: 7px;
+    color: white;
+    background: none;
+    border: none;
+}
+
+#dropdownMenuButton2:hover,
+#dropdownMenuButton1:hover {
+    color: rgb(247, 238, 238);
+}
+
+#dropdownMenuButton2:focus,
+#dropdownMenuButton1:focus {
+    outline: none;
+}
+
+#loginbutton {
+    margin-top: 4px;
+    background: transparent;
+    border: 1px solid white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+#loginbutton:hover {
+    background-color: rgb(140, 90, 197);
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(247, 238, 238);
+}
+
+.pakageheading {
+    color: black;
+}
+
+.pakagep {
+    color: rgb(139, 127, 127);
+    font-size: 13px;
+}
+
+
+/* heading section */
+
+#mainheading {
+    font-family: 'Rammetto One', cursive !important;
+    font-size: 50px;
+    color: rgb(247, 244, 244);
+}
+
+
+/* home 2 buttons section */
+
+#learnmorebtn {
+    background: white;
+    border: 1px solid white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: rgb(140, 90, 197);
+    font-size: 15px;
+    border-radius: 6px;
+    margin-right: 30px;
+}
+
+#learnmorebtn:focus {
+    outline: none;
+}
+
+#learnmorebtn:hover {
+    opacity: 0.8;
+}
+
+#viewpackagebtn {
+    background: transparent;
+    border: 1px solid white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+#viewpackagebtn:focus {
+    outline: none;
+}
+
+#viewpackagebtn:hover {
+    background-color: rgb(140, 90, 197);
+}
+
+
+/* media query */
+
+@media (min-width: 1000px) {
+    #nav {
+        background-color: transparent;
+        padding-top: 30px;
+        padding-left: 110px;
+        padding-right: 110px;
+        padding-bottom: 30px;
+    }
+    li {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 700px) {
+    #nav {
+        background-color: transparent;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #mainheading {
+        font-size: 30px;
+    }
+    .navbar-brand.abs {
+        /* position: absolute; */
+        width: 100%;
+        left: 0;
+    }
+    #learnmorebtn {
+        margin-right: 0;
+    }
+    #mlmt {
+        margin-left: 30px !important;
+        margin-top: 25px;
+        text-align: center;
+    }
+}
+
+
+/* section 2 */
+
+#sec2head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    margin-top: 60px;
+    font-family: 'Patua One', cursive !important;
+}
+
+#sec2p {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(116, 83, 155);
+    font-weight: 600;
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+.h5 {
+    color: rgb(66, 65, 65);
+    font-family: 'Patua One', cursive !important;
+    font-size: 20px;
+}
+
+#sec2endbtn {
+    background-image: url("../images/bg.jpg");
+    border: 1px solid white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+#sec2endbtn:focus {
+    outline: none;
+}
+
+#sec2endbtn:hover {
+    background-color: rgb(116, 83, 155);
+}
+
+#btnsec2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mlmt {
+    margin-left: 60px;
+    margin-top: 25px;
+    color: rgb(116, 83, 155);
+    font-weight: 600;
+}
+
+
+/* section 3 */
+
+#sec3 {
+    background-color: #f9f9fc;
+    padding-bottom: 100px;
+}
+
+p {
+    color: rgb(116, 83, 155);
+}
+
+#atob {
+    width: 130px;
+    height: 110px;
+}
+
+#atobdiv {
+    opacity: 0.4;
+}
+
+#atobdiv:hover {
+    opacity: 0.9;
+}
+
+
+/* section 4 */
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* section 5  */
+
+#sec5 {
+    padding-top: 20px;
+    background-color: #f9f9fc;
+}
+
+#sec5div {
+    background-color: white;
+    border: 2px solid #f9f9fc;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+
+#sec5col {
+    text-align: center;
+    padding: 20px;
+}
+
+#sec5btn1 {
+    background-color: rgb(124, 212, 102);
+    border: 1px solid rgb(124, 212, 102);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+#sec5btn1:focus {
+    outline: none;
+}
+
+#sec5btn1:hover {
+    box-shadow: 5px 5px 15px rgb(121, 172, 108);
+}
+
+#sec5btn2 {
+    background-color: rgb(199, 89, 193);
+    border: 1px solid rgb(235, 116, 229);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+#sec5btn2:focus {
+    outline: none;
+}
+
+#sec5btn2:hover {
+    box-shadow: 5px 5px 15px rgb(235, 116, 229);
+}
+
+#sec5btn3 {
+    background-color: rgb(72, 149, 201);
+    border: 1px solid rgb(72, 149, 201);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+#sec5btn3:focus {
+    outline: none;
+}
+
+#sec5btn3:hover {
+    box-shadow: 5px 5px 15px rgb(72, 149, 201);
+}
+
+
+/* section 6 */
+
+#sec6div {
+    background-color: white;
+    border: 2px solid #f9f9fc;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    padding-bottom: 20px;
+    margin-top: -15px;
+}
+
+#sec6col {
+    padding: 20px;
+}
+
+#sec5div,
+#sec6div {
+    box-shadow: 5px 5px 15px rgb(222, 222, 223);
+}

@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Designing</title>
+
+    <link rel="stylesheet" href="css/home.css">
+    <!-- Css Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <div id="n">
+        <div id="navbar">
+            <nav class="navbar navbar-expand-lg" id="nav">
+                <div class="d-flex flex-grow-1">
+                    <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+                    <a style="color: white;" class="navbar-brand" href="#">
+                   Hello World
+                </a>
+                    <div class="w-100 text-right">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
+                    <ul class="navbar-nav ml-auto flex-nowrap" id="menu-items">
+                        <li>
+                            <div class="dropdown">
+                                <button onmouseover="mouseover1()" onmouseout="mouseout1()" class="dropdown-toggle" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Packages
+                            </button>
+                                <div class="dropdown-menu" id="pakages-div">
+                                    <div style="display: flex;">
+                                        <div>
+                                            <h6 class="pakageheading">Essential</h6>
+                                            <p class="pakagep" style="display: block;">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Nobis, ipsam praesentium! </p><br>
+                                        </div>
+                                        <div style="margin-top: 25px; padding-left: 25px;">
+                                            <img class=".img-fluid" src="./images/pakage1.PNG" width="40px" height="35px" alt="">
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; margin-top: -20px;">
+                                        <div>
+                                            <h6 class="pakageheading">Professional</h6>
+                                            <p class="pakagep" style="display: block;">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Nobis, ipsam praesentium! </p><br>
+                                        </div>
+                                        <div style="margin-top: 25px; padding-left: 25px;">
+                                            <img class=".img-fluid" src="./images/package2.PNG" width="35px" height="35px" alt="">
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; margin-top: -20px;">
+                                        <div>
+                                            <h6 class="pakageheading">Commercial</h6>
+                                            <p class="pakagep" style="display: block;">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Nobis, ipsam praesentium! </p><br>
+                                        </div>
+                                        <div style="margin-top: 25px; padding-left: 25px;">
+                                            <img class=".img-fluid" src="./images/package3.PNG" width="35px" height="35px" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button onmouseover="mouseover2()" onmouseout="mouseout2()" class="dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Features
+                            </button>
+                                <div class="dropdown-menu" id="drop-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" id="dropdown-item" href="#">Editor</a>
+                                    <a class="dropdown-item" id="dropdown-item" href="#">Analytics</a>
+                                    <a class="dropdown-item" id="dropdown-item" href="#">DNS Control</a>
+                                    <a class="dropdown-item" id="dropdown-item" href="#">Emailing</a>
+                                    <a class="dropdown-item" id="dropdown-item" href="#">LiveChat</a>
+                                    <a class="dropdown-item" id="dropdown-item" href="#">eCommerce</a>
+                                    <hr>
+                                    <a class="dropdown-item" id="dropdown-item" href="#">Support</a>
+                                    <a class="dropdown-item" id="dropdown-item" href="#">Hosting</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Showcase</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Docs</a>
+                        </li>
+                        <li>
+                            <button id="loginbutton">Login</button>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container" style="margin-top: 80px;">
+            <div>
+                <p class="h1" id="mainheading">Take Control Of Your <br> Digital Brand</p>
+            </div>
+            <div>
+                <p style="color: rgb(240, 232, 232); margin-top: 20px; margin-bottom: 20px;">
+                    voluptas cupiditate sunt magni ipsa modi expedita cum iure? Minima.
+                    <br> voluptas cupiditate sunt magni ipsa modi expedita cum iure? Minima.
+                </p>
+            </div>
+
+            <div style="margin-top: 30px; padding: 20px;">
+                <button id="learnmorebtn">Learn More</button>
+                <button id="viewpackagebtn">View Packages</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 2 -->
+    <div class="container" id="sec2head">
+        <h2 style="text-align: center;">Merlin Panel is your website life support split into three <br> neat subscription packages.</h2>
+    </div>
+    <div class="container" id="sec2p">
+        <p style="text-align: center;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A repudiandae rerum doloremque laudantium tempora nulla nam. <br> Dolorum magnam sapiente iure possimus delectus? Quo aperiam minus nisi maiores expedita sed dolore.</p>
+    </div>
+    <div class="container" style="margin-top: 50px;">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div style="margin-left: 60px;">
+                    <img class=".img-fluid" src="./images/1.PNG" width="60px" height="60px" alt="">
+                    <img class=".img-fluid" src="./images/2.PNG" width="60px" height="60px" alt="">
+                    <img class=".img-fluid" src="./images/3.PNG" width="60px" height="60px" alt="">
+                </div>
+                <div id="mlmt">
+                    <h5 class="h5">Editor, DNS, Store</h5>
+                </div>
+                <div id="mlmt">
+                    <p>Manage all the text and images on your website, manage your eCommerce, payments and users alongside your domain and DNS.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div style="margin-left: 60px;">
+                    <img class=".img-fluid" src="./images/4.PNG" width="60px" height="60px" alt="">
+                    <img class=".img-fluid" src="./images/5.PNG" width="60px" height="60px" alt="">
+                    <img class=".img-fluid" src="./images/6.PNG" width="60px" height="60px" alt="">
+                </div>
+                <div id="mlmt">
+                    <h5 class="h5">Analytics, SEO, Social</h5>
+                </div>
+                <div id="mlmt">
+                    <p>View your site, SEO and social analytics all in one place. Get reports on how to improve and post/schedule directly to your favourite social media.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div style="margin-left: 60px;  ">
+                    <img class=".img-fluid " src="./images/7.PNG " width="60px " height="60px " alt=" ">
+                    <img class=".img-fluid " src="./images/8.PNG " width="60px " height="60px " alt=" ">
+                    <img class=".img-fluid " src="./images/9.PNG " width="60px " height="60px " alt=" ">
+                </div>
+                <div id="mlmt">
+                    <h5 class="h5 ">Emails, Enquiries, Live Chat</h5>
+                </div>
+                <div id="mlmt">
+                    <p>Reach your customers through enquiry custom forms, newsletters, instant live chat and custom emails all hosted on our platform.</p>
+                </div>
+            </div>
+        </div>
+        <div class=container id=btnsec2>
+            <button id=sec2endbtn>See All Features</button>
+        </div>
+    </div>
+    <div class=.fluid-container id="sec3">
+        <div class="container" id="sec2head" style="padding-top: 60px;">
+            <h2 style="text-align: center;">One platform to rule them all</h2>
+        </div>
+        <div class="container" id="sec2p">
+            <p style="text-align: center;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A repudiandae rerum doloremque laudantium tempora nulla nam. <br> Dolorum magnam sapiente iure possimus delectus? Quo aperiam minus nisi maiores expedita sed dolore.</p>
+        </div>
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-6 col-md-6 col-sm-1" style="align-items: center;">
+                    <div class="container" style="margin-top: 100px;">
+                        <img class="img-fluid" src="./images/sec31.PNG" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-1" style="display: flex; justify-content: center;">
+                    <div style="margin-top: 270px;">
+                        <h2 style="font-weight: bold;">Effortless editing</h2>
+                        <p style="margin-top: 20px;">Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. A repudiandae rerum <br> doloremque laudantium tempora nulla.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-6 col-md-6 col-sm-1" style="display: flex; justify-content: center;">
+                    <div style="margin-top: 270px;">
+                        <h2 style="font-weight: bold;">Smart Shopping</h2>
+                        <p style="margin-top: 20px;">Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. A repudiandae rerum <br> doloremque laudantium tempora nulla.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-1" style="align-items: center;">
+                    <div class="container" style="margin-top: 100px;">
+                        <img class="img-fluid" src="./images/sec32.PNG" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-6 col-md-6 col-sm-1" style="align-items: center;">
+                    <div class="container" style="margin-top: 100px;">
+                        <img class="img-fluid" src="./images/sec33.PNG" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-1" style="display: flex; justify-content: center;">
+                    <div style="margin-top: 270px;">
+                        <h2 style="font-weight: bold;">Comprehensive <br> analytics</h2>
+                        <p style="margin-top: 20px;">Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. A repudiandae rerum <br> doloremque laudantium tempora nulla.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--  -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row no-gutters ">
+                    <div class="col-lg-6 col-md-6 col-sm-1 " style="align-items: center; padding-left: 90px;  ">
+                        <div class="container " style="margin-top: 100px; ">
+                            <img class="img-fluid " src="./images/sec41.PNG " alt=" ">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-1 " style=" justify-content: center; padding-left: 50px; ">
+                        <div style="margin-top: 60px; ">
+                            <h4 style=" color: rgb(116, 83, 155); ">Service Advertisement Website</h4>
+                        </div>
+                        <div style="margin-top: 30px; ">
+                            <h2 style="font-weight: bold; font-size:50px; ">A to B Tyres </h2>
+                            <h2 style="font-weight: bold; font-size:30px; ">staff manage their website</h2>
+                        </div>
+                        <div style="margin-top: 30px; ">
+                            <img class=".img-fluid " src="./images/pakage1.PNG " width="65px " height=55px " alt=" ">
+                    <h4 style=" display: inline; color: rgb(116, 83, 155); ">Essential Package</h4>
+                </div>
+                <div>
+                    <p style="margin-top: 20px; ">Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. A repudiandae rerum <br> doloremque laudantium tempora nulla.</p>
+                </div>
+                <div style="margin-top: 30px; ">
+                    <button id=sec2endbtn>See All Features</button>
+                </div>
+            </div>
+        </div>
+            </div>
+            <div class="carousel-item ">
+                <div class="row no-gutters " >
+                    <div class="col-lg-6 col-md-6 col-sm-1 " style="align-items: center; padding-left: 30px; ">
+                        <div class="container " style="margin-top: 100px; ">
+                            <img class="img-fluid " src="./images/sec41.PNG " alt=" ">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-1 " style=" justify-content: center; padding-left: 30px; ">
+                        <div style="margin-top: 60px; ">
+                            <h4 style=" color: rgb(116, 83, 155); ">Service Advertisement Website</h4>
+                        </div>
+                        <div style="margin-top: 30px; ">
+                            <h2 style="font-weight: bold; font-size:50px; ">A to B Tyres </h2>
+                            <h2 style="font-weight: bold; font-size:30px; ">staff manage their website</h2>
+                        </div>
+                        <div style="margin-top: 30px; ">
+                            <img class=".img-fluid " src="./images/pakage1.PNG " width="65px " height=55px " alt=" ">
+                            <h4 style=" display: inline; color: rgb(116, 83, 155); ">Essential Package</h4>
+                        </div>
+                        <div>
+                            <p style="margin-top: 20px; ">Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. A repudiandae rerum <br> doloremque laudantium tempora nulla.</p>
+                        </div>
+                        <div style="margin-top: 30px; ">
+                            <button id=sec2endbtn>See All Features</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <div class="row no-gutters ">
+                    <div class="col-lg-6 col-md-6 col-sm-1 " style="align-items: center; padding-left: 30px;  ">
+                        <div class="container " style="margin-top: 100px; ">
+                            <img class="img-fluid " src="./images/sec41.PNG " alt=" ">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-1 " style=" justify-content: center; padding-left: 30px; ">
+                        <div style="margin-top: 60px; ">
+                            <h4 style=" color: rgb(116, 83, 155); ">Service Advertisement Website</h4>
+                        </div>
+                        <div style="margin-top: 30px; ">
+                            <h2 style="font-weight: bold; font-size:50px; ">A to B Tyres </h2>
+                            <h2 style="font-weight: bold; font-size:30px; ">staff manage their website</h2>
+                        </div>
+                        <div style="margin-top: 30px; ">
+                            <img class=".img-fluid " src="./images/pakage1.PNG " width="65px " height=55px " alt=" ">
+                    <h4 style=" display: inline; color: rgb(116, 83, 155); ">Essential Package</h4>
+                </div>
+                <div>
+                    <p style="margin-top: 20px; ">Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. A repudiandae rerum <br> doloremque laudantium tempora nulla.</p>
+                </div>
+                <div style="margin-top: 30px; ">
+                    <button id=sec2endbtn>See All Features</button>
+                </div>
+            </div>
+        </div>
+            </div>
+            <div class="carousel-item ">
+                <div class="row no-gutters " >
+                    <div class="col-lg-6 col-md-6 col-sm-1 " style="align-items: center; padding-left: 30px; ">
+                        <div class="container " style="margin-top: 100px; ">
+                            <img class="img-fluid " src="./images/sec41.PNG " alt=" ">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-1 " style=" justify-content: center; padding-left: 30px; ">
+                        <div style="margin-top: 60px; ">
+                            <h4 style=" color: rgb(116, 83, 155); ">Service Advertisement Website</h4>
+                        </div>
+                        <div style="margin-top: 30px; ">
+                            <h2 style="font-weight: bold; font-size:50px; ">A to B Tyres </h2>
+                            <h2 style="font-weight: bold; font-size:30px; ">staff manage their website</h2>
+                        </div>
+                        <div style="margin-top: 30px; ">
+                            <img class=".img-fluid " src="./images/pakage1.PNG " width="65px " height=55px " alt=" ">
+                            <h4 style=" display: inline; color: rgb(116, 83, 155); ">Essential Package</h4>
+                        </div>
+                        <div>
+                            <p style="margin-top: 20px; ">Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. A repudiandae rerum <br> doloremque laudantium tempora nulla.</p>
+                        </div>
+                        <div style="margin-top: 30px; ">
+                            <button id=sec2endbtn>See All Features</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <div class="row no-gutters " <div class="col-lg-6 col-md-6 col-sm-1 " style="align-items: center; padding-left: 30px;  ">
+                    <div class="container " style="margin-top: 100px; ">
+                        <img class="img-fluid " src="./images/sec41.PNG " alt=" ">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-1 " style=" justify-content: center; padding-left: 30px; ">
+                    <div style="margin-top: 60px; ">
+                        <h4 style=" color: rgb(116, 83, 155); ">Service Advertisement Website</h4>
+                    </div>
+                    <div style="margin-top: 30px; ">
+                        <h2 style="font-weight: bold; font-size:50px; ">A to B Tyres </h2>
+                        <h2 style="font-weight: bold; font-size:30px; ">staff manage their website</h2>
+                    </div>
+                    <div style="margin-top: 30px; ">
+                        <img class=".img-fluid " src="./images/pakage1.PNG " width="65px " height=55px " alt=" ">
+                    <h4 style=" display: inline; color: rgb(116, 83, 155); ">Essential Package</h4>
+                </div>
+                <div>
+                    <p style="margin-top: 20px; ">Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. A repudiandae rerum <br> doloremque laudantium tempora nulla.</p>
+                </div>
+                <div style="margin-top: 30px; ">
+                    <button id=sec2endbtn>See All Features</button>
+                </div>
+            </div>
+        </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+
+    <div class="container " style="margin-bottom: 150px; ">
+
+        <div class="row no-gutters " style="margin-top: 50px; justify-content: space-between; text-align: center; ">
+            <div id=atobdiv>
+                <img href="carouselExampleSlidesOnly " data-slide="next " class=img-fluid src="./images/sec42.PNG " id=atob>
+                <h2 style="font-weight: bold; font-size:22px; margin-top: 15px; ">A to B Tyres</h2>
+            </div>
+            <div id=atobdiv>
+                <img class=img-fluid src="./images/sec43.PNG " id=atob>
+                <h2 style="font-weight: bold; font-size:22px; margin-top: 15px; ">Azura</h2>
+            </div>
+            <div id=atobdiv>
+                <img class=img-fluid src="./images/sec44.PNG " id=atob>
+                <h2 style="font-weight: bold; font-size:22px; margin-top: 15px; ">Ballistic Artwork</h2>
+            </div>
+            <div id=atobdiv>
+                <img class=img-fluid src="./images/sec45.PNG " id=atob>
+                <h2 style="font-weight: bold; font-size:22px; margin-top: 15px; ">Retreat East</h2>
+            </div>
+            <div id=atobdiv>
+                <img class=img-fluid src="./images/sec46.PNG " id=atob>
+                <h2 style="font-weight: bold; font-size:22px; margin-top: 15px; ">Sylvan Arms</h2>
+            </div>
+    
+        </div>
+    
+        </div>
+    <!-- section 4  -->
+
+ 
+
+
+
+    <!-- section 5 -->
+    <div class=fluid-container id=sec5>
+        <div class=container id=sec5div>
+            <div class="row no-gutters ">
+                <div class="col-lg-3 col-md-3 col-sm-12 " id=sec5col>
+                    <div>
+                        <img class=".img-fluid " style=padding-top:20px; src="./images/sec51.PNG " alt=" ">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 " id=sec5col>
+                    <div style="margin-top: 30px; ">
+                        <img class=".img-fluid " src="./images/pakage1.PNG " width="65px " height=55px " alt=" ">
+                        <h4 style=" margin-top:14px; color: rgb(9, 2, 17); font-size: 16px; ">£45 per month</h4>
+                    </div>
+                    <div style="margin-top: 30px; ">
+                        <button id=sec5btn1>View Essential</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 " id=sec5col>
+                    <div style="margin-top: 30px; ">
+                        <img class=".img-fluid " src="./images/package2.PNG " width="61px " height=55px " alt=" ">
+                        <h4 style=" margin-top:14px; color: rgb(9, 2, 17); font-size: 16px; ">£45 per month</h4>
+                    </div>
+                    <div style="margin-top: 30px; ">
+                        <button id=sec5btn2>View Professional</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 " id=sec5col>
+                    <div style="margin-top: 30px; ">
+                        <img class=".img-fluid " src="./images/package3.PNG " width="55px " height=55px " alt=" ">
+                        <h4 style=" margin-top:14px; color: rgb(9, 2, 17); font-size: 16px; ">£45 per month</h4>
+                    </div>
+                    <div style="margin-top: 30px; ">
+                        <button id=sec5btn3>View Commercial</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="container ">
+            <div class="row no-gutters " style=" background-color: #f9f9fc !important " ;>
+                <div class="col-lg-3 col-md-3 col-sm-12 " id=sec5col>
+                    <p style="text-align: center; ">Feature</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 " id=sec5col>
+                    <p style="text-align: center; ">Essential Package</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 " id=sec5col>
+                    <p style="text-align: center; ">Professional Package</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 " id=sec5col>
+                    <p style="text-align: center; ">Commercial Package</p>
+                </div>
+            </div>
+        </div>
+        <div class=container id=sec6div>
+            <div class="row no-gutters " style="padding-top: 20px; ">
+                <div class="col-lg-3 col-md-3 col-sm-12 " id=sec6col>
+                    <h4 color: black; ">Editor</h4>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 " id=sec6col style="padding-top: 70px; ">
+                        <p>Basic editor</p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 " id=sec6col style="padding-top: 70px; ">
+                        <p>
+                            Advanced <br> editor</p>
+                        <p>
+                            Blog editor
+                        </p>
+                        <p>
+                            Rollback & admin <br> control
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 " id=sec6col style="padding-top: 70px; ">
+                        <p>Advanced editor</p>
+                        <p>Blog editor</p>
+                        <p>Previous version <br> viewer
+                        </p>
+                        <p>Rollback & admin <br> control</p>
+                        <p>Preview share</p>
+                    </div>
+
+                </div>
+                <div class="row no-gutters " style="padding-top: 20px; ">
+                    <div class="col-lg-3 col-md-3 col-sm-12 " id=sec6col>
+                        <h4 color: black; ">Analytics</h4>
+                </div>
+            </div>
+            <div class="row no-gutters " style="margin-top: -10px; ">
+                <div class="col-lg-3 col-md-3 col-sm-12 " id=sec6col>
+                    <h4 color: black; ">Users & emails</h4>
+                    </div>
+                </div>
+                <div class="row no-gutters " style="margin-top: -10px; ">
+                    <div class="col-lg-3 col-md-3 col-sm-12 " id=sec6col>
+                        <h4 color: black; ">Enquires</h4>
+                </div>
+            </div>
+            <div class="row no-gutters " style="margin-top: -10px; ">
+                <div class="col-lg-3 col-md-3 col-sm-12 " id=sec6col>
+                    <h4 color: black; ">LiveChat</h4>
+                    </div>
+                </div>
+                <div class="row no-gutters " style="margin-top: -10px; ">
+                    <div class="col-lg-3 col-md-3 col-sm-12 " id=sec6col>
+                        <h4 color: black; ">Store
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container " style="padding-bottom: 150px; ">
+            <div style="margin-top: 140px; ">
+                <h2 style="text-align: center; font-weight: bold; ">Also included in every package</h2>
+            </div>
+            <div class="row no-gutters " style="margin-left: 60px; ">
+                <div class="col-lg-6 col-md-6 col-sm-12 ">
+                    <div style="margin-top: 130px; ">
+                        <img style="display: inline; " src="./images/sec71.PNG " alt=" ">
+                        <h1 style="display: inline; margin-left: 10px; text-align: center; " style="font-weight: bold; ">Hosting</h1>
+                        <p style=" text-align: center; ">Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. A repudiandae rerum <br> doloremque laudantium tempora nulla.</p>
+                        <div style="margin-top: 30px; text-align: center; ">
+                            <button id=sec2endbtn>View More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 ">
+                    <div style="margin-top: 130px; ">
+                        <img style="display: inline; " src="./images/sec72.PNG " alt=" ">
+                        <h1 style="display: inline ; margin-left: 10px; text-align: center; " style="font-weight: bold; ">Support plan</h1>
+                        <p style=" text-align: center; ">Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. A repudiandae rerum <br> doloremque laudantium tempora nulla.</p>
+                        <div style="margin-top: 30px; text-align: center; ">
+                            <button id=sec2endbtn>View More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="display: flex; justify-content: center; align-items: center; ">
+                <div style="margin-top: 80px; ">
+                    <img style="display: inline; " src="./images/sec73.PNG " alt=" ">
+                    <h1 style="display: inline; margin-left: 10px; text-align: center; " style="font-weight: bold; ">PDF Brochure</h1>
+                    <div style="margin-top: 30px; text-align: center; ">
+                        <button id=sec2endbtn>Download</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Section 8 -->
+
+        <div>
+
+        </div>
+
+
+
+
+
+
+        <script src="js/app.js "></script>
+</body>
+
+</html>
